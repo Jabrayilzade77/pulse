@@ -1,0 +1,147 @@
+.header_container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg.webp");
+  background-position: center;
+  background-size: cover;
+}
+.header_container {
+  div {
+    text-align: right;
+  }
+
+  h1 {
+    margin: 0 auto;
+    color: white;
+    font-size: 60px;
+    display: flex;
+
+    justify-content: center;
+    letter-spacing: 1px;
+  }
+  .span_header {
+    color: white;
+    letter-spacing: 1px;
+  }
+}
+
+.welcome_header {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  .icon {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+
+
+
+  .header_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+  .cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards {
+    width: 300px;
+    margin-right: 30px;
+    text-align: center;
+
+    p {
+      color: rgb(122, 122, 122);
+    }
+    h3 {
+      font-size: 25px;
+    }
+  }
+  .sign {
+    width: 100px;
+    padding: 20px;
+    color: black;
+    margin: 0 auto;
+  }
+}
+
+.middle_line {
+  display: flex;
+  width: 200px;
+  height: 1px;
+  background-color: rgb(255, 179, 0);
+}
+
+.welcome_and_lines {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials_section {
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+
+  .testimonials_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .icecream {
+    color: white;
+    font-size: 40px;
+  }
+ .middle_testimonials_section{
+  color: white;
+  font-size: 40px;
+
+ }
+ .description{
+  padding: 50px;
+  width: 800px;
+  color: white;
+ }
+ .dirnaq{
+  color: white;
+  font-size: 20px;
+ }
+
+ .ted_client{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  div{
+    color: rgb(255, 196, 0);
+  }
+  p{
+    color: white;
+  }
+ }
+}
